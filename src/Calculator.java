@@ -61,7 +61,7 @@ public class Calculator {
         }
     }
 
-    public void isSmallerOrEg(){
+    public void isSmallerOrEq(){
         if(this.num1 <= this.num2){
             this.res = 1;
         }

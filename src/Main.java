@@ -48,7 +48,7 @@ public class Main {
             }
 
             case "<=":{
-                calculator.isSmallerOrEg();
+                calculator.isSmallerOrEq();
                 break;
             }
         }
