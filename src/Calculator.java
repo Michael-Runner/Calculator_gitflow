@@ -24,6 +24,13 @@ public class Calculator {
     }
 
     public void div(){
+        if(this.num2 == 0){
+
+            System.err.println("Second number can't be 0!");
+            System.exit(0);
+            return;
+        }
+
         this.res = this.num1 / this.num2;
     }
 
