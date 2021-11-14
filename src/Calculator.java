@@ -19,6 +19,14 @@ public class Calculator {
         this.res = this.num1 - this.num2;
     }
 
+    public void mul(){
+        this.res = this.num1 * this.num2;
+    }
+
+    public void div(){
+        this.res = this.num1 / this.num2;
+    }
+
     public double getNum1() {
         return num1;
     }

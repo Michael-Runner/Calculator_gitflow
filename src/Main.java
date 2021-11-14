@@ -21,6 +21,16 @@ public class Main {
                 calculator.dif();
                 break;
             }
+
+            case "*":{
+                calculator.mul();
+                break;
+            }
+
+            case "/":{
+                calculator.div();
+                break;
+            }
         }
 
         System.out.println("Result: " + calculator.getRes());
