@@ -41,6 +41,16 @@ public class Main {
                 calculator.isSmaller();
                 break;
             }
+
+            case ">=":{
+                calculator.isBiggerOrEq();
+                break;
+            }
+
+            case "<=":{
+                calculator.isSmallerOrEg();
+                break;
+            }
         }
 
         System.out.println("Result: " + calculator.getRes());

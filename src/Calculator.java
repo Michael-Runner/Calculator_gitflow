@@ -52,6 +52,24 @@ public class Calculator {
         }
     }
 
+    public void isBiggerOrEq(){
+        if(this.num1 >= this.num2){
+            this.res = 1;
+        }
+        else {
+            this.res = 0;
+        }
+    }
+
+    public void isSmallerOrEg(){
+        if(this.num1 <= this.num2){
+            this.res = 1;
+        }
+        else {
+            this.res = 0;
+        }
+    }
+
     public double getNum1() {
         return num1;
     }
