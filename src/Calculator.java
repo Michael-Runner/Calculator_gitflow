@@ -34,6 +34,24 @@ public class Calculator {
         this.res = this.num1 / this.num2;
     }
 
+    public void isBigger(){
+        if(this.num1 > this.num2){
+            this.res = 1;
+        }
+        else {
+            this.res = 0;
+        }
+    }
+
+    public void isSmaller(){
+        if(this.num1 < this.num2){
+            this.res = 1;
+        }
+        else {
+            this.res = 0;
+        }
+    }
+
     public double getNum1() {
         return num1;
     }

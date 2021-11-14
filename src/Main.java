@@ -31,6 +31,16 @@ public class Main {
                 calculator.div();
                 break;
             }
+
+            case ">":{
+                calculator.isBigger();
+                break;
+            }
+
+            case "<":{
+                calculator.isSmaller();
+                break;
+            }
         }
 
         System.out.println("Result: " + calculator.getRes());
