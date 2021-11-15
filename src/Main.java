@@ -5,11 +5,22 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        double num1 = scanner.nextDouble();
-        String command = scanner.next();
-        double num2 = scanner.nextDouble();
+        Calculator calculator;
+        double num1;
+        double num2;
 
-        Calculator calculator = new Calculator(num1, num2);
+        num1 = scanner.nextDouble();
+        String command = scanner.next();
+
+        if(command.equals("!"))
+        {
+            calculator = new Calculator(num1);
+        }
+        else
+        {
+            num2 = scanner.nextDouble();
+            calculator = new Calculator(num1, num2);
+        }
 
         switch (command){
             case "+":{
@@ -49,6 +60,11 @@ public class Main {
 
             case "<=":{
                 calculator.isSmallerOrEg();
+                break;
+            }
+
+            case "!":{
+                calculator.fuct();
                 break;
             }
         }

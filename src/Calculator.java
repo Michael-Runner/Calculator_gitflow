@@ -6,6 +6,10 @@ public class Calculator {
     public Calculator() {
     }
 
+    public Calculator(double num1) {
+        this.num1 = num1;
+    }
+
     public Calculator(double num1, double num2) {
         this.num1 = num1;
         this.num2 = num2;
@@ -67,6 +71,14 @@ public class Calculator {
         }
         else {
             this.res = 0;
+        }
+    }
+
+    public void fuct(){
+        this.res = 1;
+
+        for(int i = 2; i<=this.num1; i++){
+            this.res = this.res*i;
         }
     }
 
