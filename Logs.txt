@@ -1,0 +1,5 @@
+num 1 entered 5.0 
+command entered + 
+num 2 entered 5.0 
++ command 
+Result: 10.0 
